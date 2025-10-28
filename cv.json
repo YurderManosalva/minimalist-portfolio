@@ -1,0 +1,286 @@
+{
+  "basics": {
+    "name": "Yurder Sifrey Manosalva Montejo",
+    "label": "Full Stack Developer Junior con 2 años de experiencia",
+    "image": "/minimalist-portfolio/me.webp",
+    "email": "Yurdermanosalva01@gmail.com",
+    "phone": "+56 3125200974",
+    "url": "https://midu.dev",
+    "summary": "Soy desarrollador Full-Stack Junior con experiencia en el desarrollo de aplicaciones tanto del lado del cliente como del servidor, abarcando entornos web y móviles. Manejo tecnologías como Java, Spring Boot, JavaScript, Flutter y Python, integrando bases de datos relacionales y aplicando metodologías ágiles para la gestión de proyectos. He participado en la creación de soluciones para el sector financiero y en la implementación de interfaces de usuario optimizadas, así como en el desarrollo de APIs y funcionalidades backend. Me caracterizo por mi capacidad de aprendizaje continuo, adaptabilidad y enfoque en entregar software eficiente, escalable y de calidad.",
+    "location": {
+      "address": "",
+      "postalCode": "-----",
+      "city": "Ocaña, Norte de Santander",
+      "countryCode": "COL",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Yurder Manosalva",
+        "url": "https://linkedin.com/in/yurder-manosalva"
+      },
+      {
+        "network": "X",
+        "username": "midudev",
+        "url": "https://x.com/midudev"
+      },
+      {
+        "network": "GitHub",
+        "username": "YurderManosalva",
+        "url": "https://github.com/YurderManosalva"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Desarrollador Junior",
+      "position": "Desarrollador de software",
+      "startDate": "2024-07-24",
+      "endDate": null,
+      "summary": "Desarrollo nuevas funcionalidades para aplicaciones financieras en datáfonos con sistema operativo Android, enfocándome en mejorar la experiencia del usuario y optimizar el rendimiento del sistema. Utilizo herramientas de control de versiones como Git para gestionar el código de forma colaborativa y aplico metodologías ágiles para planificar y entregar actualizaciones de manera eficiente.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "Pasantía - Desarrollo de una app de publicidad para datáfonos Android",
+      "position": "Desarrollador de software",
+      "startDate": "2024-03-04",
+      "endDate": "2024-06-27",
+      "summary": "Durante mi pasantía, desarrollé una aplicación publicitaria para datáfonos Android, cuyo objetivo fue crear una herramienta que permitiera mostrar contenido visual atractivo en los períodos de inactividad de los dispositivos. El proyecto incluyó capacitación técnica, definición de requisitos, selección de tecnologías y la implementación de funcionalidades clave, como la personalización de los anuncios con configuraciones persistentes.",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Francisco de Paula Santander Ocaña",
+      "url": "https://www.uoc.edu/portal/es/index.html",
+      "area": "Ingeniero en Sistemas",
+      "studyType": "Bachelor",
+      "startDate": "2019-01-01",
+      "endDate": "2024-01-01",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    },
+    {
+      "institution": "Institución Educativa Francisco Fernández deContreras",
+      "url": "https://www.uoc.edu/portal/es/index.html",
+      "area": "Bachiller académico",
+      "studyType": "Bachelor",
+      "startDate": "2012-01-01",
+      "endDate": "2018-01-01",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Flutter para principiantes: desde 0 y full proyectos - 2023",
+      "date": "25-04-2025",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-78004e7b-17b5-48d3-a438-4e2150ae2aa5"
+    },
+    {
+      "name": "Universidad JavaScript - De Cero a Experto JavaScript!",
+      "date": "08-05-2025",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-f73a46e4-e8cc-46cd-9aa6-deda13962452"
+    },
+    {
+      "name": "TypeScript para principiantes desde 0",
+      "date": "13-05-2025",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-2696d01b-78d9-41e2-ab59-789e7bfa9fd6"
+    },
+    {
+      "name": "Universidad Java - Cero a Experto",
+      "date": "01-07-2025",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-7f8b210d-85db-4be3-87b9-78bec9aec5b3"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "25-04-2025",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Java",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Basic"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "To Do List App ",
+      "isActive": false,
+      "description": "Aplicación sencilla para gestionar tareas diarias, permitiendo agregar y eliminar pendientes con una interfaz amigable.",
+      "highlights": ["Html", "Css", "JavaScript"],
+      "url": "",
+      "github": "https://github.com/YurderManosalva/To-Do-List-App.git"
+    },
+    {
+      "name": "Calculadora",
+      "isActive": false,
+      "description": "Herramienta web básica que permite realizar operaciones aritméticas principales con un diseño limpio y funcional.",
+      "highlights": ["Html", "Css", "JavaScript"],
+      "url": "",
+      "github": "https://github.com/YurderManosalva/Calculadora.git"
+    },
+    {
+      "name": "API Rest Spring Boot",
+      "isActive": false,
+      "description": "API REST desarrollada en Spring Boot para manejar datos mediante operaciones CRUD con arquitectura organizada por capas.",
+      "highlights": ["Java", "Spring Boot"],
+      "url": "",
+      "github": "https://github.com/YurderManosalva/API-Rest-Spring-Boot"
+    },
+    {
+      "name": "API Rest Node JS",
+      "isActive": false,
+      "description": "API construida con Node.js y Express para la gestión de recursos mediante endpoints REST fáciles de integrar.",
+      "highlights": ["JavaScript", "Node.js"],
+      "url": "",
+      "github": "https://github.com/YurderManosalva/API-Rest-Node-JS"
+    },
+    {
+      "name": "timetracker",
+      "isActive": false,
+      "description": "Aplicación escrita en Java para registrar tiempo dedicado a actividades, ideal para control de productividad.",
+      "highlights": ["Java"],
+      "url": "",
+      "github": "https://github.com/YurderManosalva/timetracker"
+    },
+    {
+      "name": "Api Gestion Facturas",
+      "isActive": true,
+      "description": "Sistema backend hecho en Spring Boot para administración de facturas, permitiendo registrar, consultar y actualizar información.",
+      "highlights": ["Java", "Spring Boot"],
+      "url": "",
+      "github": "https://github.com/YurderManosalva/Api_Gestion_Facturas"
+    },
+    {
+      "name": "Gestor de Proyectos",
+      "isActive": false,
+      "description": "Plataforma backend que gestiona proyectos y usuarios usando Java, Node.js, Docker, Swagger y Prisma, enfocada en buenas prácticas y arquitectura limpia.",
+      "highlights": ["Java", "Spring Boot", "JavaScript", "Node.js", "Docker", "Swagger", "Prisma"],
+      "url": "",
+      "github": "https://github.com/YurderManosalva/Gestor-de-Proyectos"
+    }
+  ]
+}
