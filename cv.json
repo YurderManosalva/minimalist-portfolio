@@ -178,6 +178,11 @@
       ]
     },
     {
+      "name": "PostgreSQL",
+      "level":"Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
       "name": "Git",
       "level": "Avanzado",
       "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
@@ -200,6 +205,37 @@
     {
       "name": "Java",
       "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Spring Boot",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    }
+  ],
+  "technologies": [
+    {
+      "name": "OpenProject",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Postman",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "IntelliJ IDEA",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "VS Code",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "PyCharm IDE",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Android Studio",
       "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     }
   ],
