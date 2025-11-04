@@ -49,6 +49,28 @@ import { work } from "@cv";
 </Section>
 
 <style>
+  :root {
+    --c-h3: #111;
+    --c-a: #111;
+    --c-h4: #222;
+    --c-time: #555;
+    --c-data-title-background: #333;
+    --c-data-title-color: #fff;
+  }
+
+  html.dark {
+    --c-h3: #ededed;
+    --c-a: #ededed;
+    --c-h4: #cccccc;
+    --c-time: #9e9e9e;
+    --c-data-title-background: #222;
+    --c-data-title-color: #fff;
+  }
+
+  html.dark p {
+    color: #a0a0a0;
+  }
+
   ul {
     display: flex;
     flex-direction: column;
@@ -57,11 +79,11 @@ import { work } from "@cv";
 
   article h3 {
     font-weight: 500;
-    color: #111;
+    color: var(--c-h3);
   }
 
   article a {
-    color: #111;
+    color: var(--c-a);
   }
 
   article a:hover {
@@ -69,7 +91,7 @@ import { work } from "@cv";
   }
 
   article h4 {
-    color: #222;
+    color: var(--c-h4);
     font-weight: 400;
   }
 
@@ -81,7 +103,7 @@ import { work } from "@cv";
   }
 
   time {
-    color: #555;
+    color: var(--c-time);
     font-size: 0.85rem;
     min-width: 102px;
     cursor: default;
@@ -95,8 +117,8 @@ import { work } from "@cv";
 
   [data-title]:after {
     content: attr(data-title);
-    background-color: #333;
-    color: #fff;
+    background-color: var(--c-data-title-background);
+    color: var(--c-data-title-color);
     font-size: 0.75rem;
     font-family:
       Menlo,

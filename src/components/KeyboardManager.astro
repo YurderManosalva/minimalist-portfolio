@@ -151,6 +151,50 @@ const profilesInfo = profiles.map(({ network, url }) => {
 </script>
 
 <style>
+  :root {
+    --c-footer-background: #fdfdfd;
+    --c-footer-border-top: #eee;
+    --c-kbd: #eee;
+    --c-footer-button-background: #fff;
+    --c-footer-button-border: #eee;
+
+    --c-hotkeypad-bg-kbd: #f9fafb;
+    --c-hotkeypad-bg-backdrop: #fff;
+    --c-hotkeypad-bg-container: #fff;
+    --c-hotkeypad-bg-item-hover: #f3f4f6;
+    --c-hotkeypad-border-container: #d1d5db;
+    --c-hotkeypad-border-container-hover: #9ca3af;
+    --c-hotkeypad-fg-muted: #4b5563;
+  }
+
+  html.dark {
+    --c-footer-background: #0e0e0f;
+    --c-footer-border-top: #1f1f20;
+    --c-kbd: #1f1f20;
+    --c-footer-button-background: #0e0e0f;
+    --c-footer-button-border: #1f1f20;
+
+    --c-hotkeypad-bg-kbd: #1a1a1b;
+    --c-hotkeypad-bg-backdrop: #0d0d0d;
+    --c-hotkeypad-bg-container: #111214;
+    --c-hotkeypad-bg-item-hover: #27292c;
+    --c-hotkeypad-border-container: #3a3f45;
+    --c-hotkeypad-border-container-hover: #5a6169;
+    --c-hotkeypad-fg-muted: #9ca3af;
+  }
+
+  #hotkeypad {
+    --hotkeypad-bg-kbd: var(--c-hotkeypad-bg-kbd);
+    --hotkeypad-bg-backdrop: var(--c-hotkeypad-bg-backdrop);
+    --hotkeypad-bg-container: var(--c-hotkeypad-bg-container);
+    --hotkeypad-bg-item-hover: var(--c-hotkeypad-bg-item-hover);
+    --hotkeypad-border-container: var(--c-hotkeypad-border-container);
+    --hotkeypad-border-container-hover: var(
+      --c-hotkeypad-border-container-hover
+    );
+    --hotkeypad-fg-muted: var(--c-hotkeypad-fg-muted);
+  }
+
   @keyframes fadeIn {
     from {
       opacity: 0;
@@ -176,9 +220,9 @@ const profilesInfo = profiles.map(({ network, url }) => {
     }
 
     #footer-button {
-      background: #fff;
+      background: var(--c-footer-button-background);
       position: fixed;
-      border: 1px solid #eee;
+      border: 1px solid var(--c-footer-button-border);
       right: 10px;
       bottom: 10px;
       width: 50px;
@@ -192,8 +236,8 @@ const profilesInfo = profiles.map(({ network, url }) => {
   }
 
   footer {
-    background: #fdfdfd;
-    border-top: 1px solid #eee;
+    background: var(--c-footer-background);
+    border-top: 1px solid var(--c-footer-border-top);
     position: fixed;
     bottom: 0px;
     width: 100%;
@@ -210,7 +254,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
   }
 
   kbd {
-    background: #eee;
+    background: var(--c-kbd);
     border-radius: 4px;
     padding: 2px 4px;
     font-size: 12px;

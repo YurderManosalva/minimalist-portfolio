@@ -51,6 +51,20 @@ import { projects } from "@cv";
 </Section>
 
 <style>
+  :root {
+    --c-article: #f2f2f2;
+    --c-article-a: #111;
+    --c-footer: #eee;
+    --c-footer-color: #444;
+  }
+
+  html.dark {
+    --c-article: #2a2a2a;
+    --c-article-a: #ededed;
+    --c-footer: #1f1f20;
+    --c-footer-color: #cfcfcf;
+  }
+
   ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -60,7 +74,7 @@ import { projects } from "@cv";
 
   article {
     border-radius: 8px;
-    border: 1px solid #f2f2f2;
+    border: 1px solid var(--c-article);
     gap: 16px;
     display: flex;
     flex-direction: column;
@@ -77,7 +91,7 @@ import { projects } from "@cv";
   }
 
   article a {
-    color: #111;
+    color: var(--c-article-a);
   }
 
   article a:hover {
@@ -107,8 +121,8 @@ import { projects } from "@cv";
 
   footer span {
     border-radius: 6px;
-    background: #eee;
-    color: #444;
+    background: var(--c-footer);
+    color: var(--c-footer-color);
     font-size: 0.6rem;
     font-weight: 500;
     padding: 0.2rem 0.6rem;
@@ -137,7 +151,7 @@ import { projects } from "@cv";
 
     article {
       border: none;
-      box-shadow: 0 1px 1px #f2f2f2;
+      box-shadow: 0 1px 1px var(--c-article);
       padding: 0 0 16px 0;
     }
   }

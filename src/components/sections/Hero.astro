@@ -80,6 +80,26 @@ const SOCIAL_ICONS: Record<string, string | any> = {
 </Section>
 
 <style>
+  :root {
+    --c-h2: #444;
+    --c-span: #666;
+    --c-footer: #555;
+    --c-link: #777;
+    --c-link-border: #eee;
+    --c-link-hover-bg: #eee;
+    --c-link-hover-border: #ddd;
+  }
+
+  html.dark {
+    --c-h2: #c8c8c8;
+    --c-span: #a0a0a0;
+    --c-footer: #a0a0a0;
+    --c-link: #8a8a8a;
+    --c-link-border: #2a2a2a;
+    --c-link-hover-bg: #2d2d30;
+    --c-link-hover-border: #2a2a2a;
+  }
+
   .container {
     display: flex;
     flex-direction: row;
@@ -100,7 +120,7 @@ const SOCIAL_ICONS: Record<string, string | any> = {
   }
 
   h2 {
-    color: #444;
+    color: var(--c-h2);
     font-weight: 500;
     font-size: 1.1rem;
     text-wrap: balance;
@@ -114,7 +134,7 @@ const SOCIAL_ICONS: Record<string, string | any> = {
   }
 
   span {
-    color: #666;
+    color: var(--c-span);
     display: flex;
     align-items: center;
     gap: 0.25rem;
@@ -123,7 +143,7 @@ const SOCIAL_ICONS: Record<string, string | any> = {
   }
 
   footer {
-    color: #555;
+    color: var(--c-footer);
     font-size: 0.65rem;
     display: flex;
     gap: 4px;
@@ -131,11 +151,11 @@ const SOCIAL_ICONS: Record<string, string | any> = {
   }
 
   footer a {
-    color: #777;
+    color: var(--c-link);
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #eee;
+    border: 1px solid var(--c-link-border);
     padding: 4px;
     height: 32px;
     width: 32px;
@@ -144,8 +164,8 @@ const SOCIAL_ICONS: Record<string, string | any> = {
   }
 
   footer a:hover {
-    background: #eee;
-    border: 1px solid #ddd;
+    background: var(--c-link-hover-bg);
+    border-color: var(--c-link-hover-border);
   }
 
   @media (width <= 700px) {
@@ -164,13 +184,6 @@ const SOCIAL_ICONS: Record<string, string | any> = {
       display: flex;
       justify-content: center;
       align-items: center;
-    }
-
-    h2 {
-      text-wrap: balance;
-    }
-
-    figure {
       margin: 0 auto;
     }
   }
