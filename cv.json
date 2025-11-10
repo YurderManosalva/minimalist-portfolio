@@ -5,11 +5,11 @@
     "image": "/minimalist-portfolio/me.webp",
     "email": "Yurdermanosalva01@gmail.com",
     "phone": "+56 3125200974",
-    "url": "https://midu.dev",
+    "url": "",
     "summary": "Soy desarrollador Full-Stack Junior con experiencia en el desarrollo de aplicaciones tanto del lado del cliente como del servidor, abarcando entornos web y móviles. Manejo tecnologías como Java, Spring Boot, JavaScript, Flutter y Python, integrando bases de datos relacionales y aplicando metodologías ágiles para la gestión de proyectos. He participado en la creación de soluciones para el sector financiero y en la implementación de interfaces de usuario optimizadas, así como en el desarrollo de APIs y funcionalidades backend. Me caracterizo por mi capacidad de aprendizaje continuo, adaptabilidad y enfoque en entregar software eficiente, escalable y de calidad.",
     "location": {
       "address": "",
-      "postalCode": "-----",
+      "postalCode": "",
       "city": "Ocaña, Norte de Santander",
       "countryCode": "COL",
       "region": "Colombia"
